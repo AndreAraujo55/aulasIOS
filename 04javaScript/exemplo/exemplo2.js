@@ -14,7 +14,7 @@ if(casoCliente == caso1){
 else if(casoCliente == caso2){
     console.log('Você está na linha de espera');
 }
-else if(casoCliente == caso2){
+else if(casoCliente == caso3){
     console.log('Você está em um menu automático');
 }
 else{

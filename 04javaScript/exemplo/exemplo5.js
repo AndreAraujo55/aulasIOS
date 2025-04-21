@@ -5,6 +5,6 @@ console.log('Empresarial');
 console.log('Marketing');
 let atendimento = ['consultoria financeira', 'empresarial',  'marketing']
 
-console.log('');
+
 
 
