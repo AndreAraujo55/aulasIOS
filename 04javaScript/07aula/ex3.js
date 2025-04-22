@@ -1,7 +1,6 @@
 let notas = [3 + 6 + 4 + 8 + 6]/5
-let media = 7
 
-if(notas >= media){
+if(notas >= 7){
     console.log('Vc passou');
 }
 else{
