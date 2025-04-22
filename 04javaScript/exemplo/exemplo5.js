@@ -5,9 +5,12 @@ console.log('Empresarial');
 console.log('Marketing');
 let atendimento = ['consultoria financeira', 'empresarial',  'marketing']
 
+<<<<<<< HEAD
 if([0]){
     console.log('Você escolheu Consultorias Financeira');
 }
+=======
+>>>>>>> 6534a002a006c3db809754d9add5e164800cfb25
 
 
 

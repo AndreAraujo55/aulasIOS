@@ -9,7 +9,7 @@ console.log('Frango Catupiry pelo valor de R$ 35,00');
 
 
 
-let pedidoPizza  = 1
+let pedidoPizza = 3
 
 switch(pedidoPizza){
     case 1:
