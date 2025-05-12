@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario 2 Eletric Boogaloo</title>
+</head>
+<body>
+    <form action="#" method="get">
+        <!--Sselect permite que o usuario selecione dentre opções determinadas -->
+        <select name="Sudeste" id="sudeste">
+            <option value="SP"> São Paulo</option>
+            <option value="MG">Minas Gerais</option>
+            <option value="RJ">Rio de Janeiro</option>
+        </select>
+<br>
+
+        <datalist id="locomocao">
+            
+
+            <option value="bike">BMX</option>
+            <option value="carro">Celta</option>
+            <option value="barco">Lancha</option>
+            <option value="cavalo">pé de pano </option>
+            <option value="jegue">Jumentinho</option>
+
+        </datalist>
+         <!-- datalist cria uma lista de dados que podem ser acessados pelo restante do form
+         sendo cocumumente utilizando para sugestões de preenchimento-->
+        <input autocomplete="on" list="locomocao" name="meioTransporte" id="meioTranporte" placeholder="Seu meio de Transporte" />
+    <br>
+    <!--o tipo range serve para criar um slider a fim de facilitar a entrada de dados 
+    um bom exemplo é um slider de volume para um aplicativo de música-->
+        0
+        <input type="range" id="quilometros" name="quilometros" min="200" max="1400"
+         />100
+         <br>
+         <input type="submit" value="Enviar">
+    
+    </form>
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+
+<body style="background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSicfLEhFfB8_IJRoph3fB6AJLCAZbcOwvDBQ&s);">
+    
+    <h1>SENSO DE FOLHA AMARELAS 2025</h1>
+    <form action="mailto: rochalirathiago@outlook.com" method="post" >
+        
+        <!--for = para | esse label é para elemento de id nomeUsuario-->
+        <label for="nomeUsuario">Insira seu nome:</label> <!--Rótulo-->
+        <input type="text" id="nomeUsuario" size="50" maxlength="50">
+        <!-- A propriedade maxlenght determina a quantidade máxima de caracteres que seu input pode receber -->
+
+        <p>Escolha apenas uma folha amarela</p>
+<br>
+<!--O radio permite que o usuario escolha apenas uma opção de varias para identificar que radios diferentes respndem a mesma pergunta colocamos o mesmo nome em todos 
+O que diferencia um radio do outro id, que deve ser único-->
+<input type="radio" name="folhaAmarela" id="folhaAmarelaBrilhante" value="Folha Amarela Brilhante">
+<label for="folhaAmarelaBrilhante">Folha amarela brilhante</label>
+
+<br>
+
+<input type="radio" name="folhaAmarela" id="folhaAmarelaRessecada" value="Folha Amarela Ressecada">
+<label for="folhaAmarelaBrilhante">Folha amarela ressecada</label>
+
+<br>
+
+<input type="radio" name="folhaAmarela" id="folhaAmarelaOutono" value="Folha Amarela de Outono">
+<label for="folhaAmarelaBrilhante">Folha amarela de Outono</label>
+
+<br>
+
+<input type="radio" name="folhaAmarela" id="folhaAmarelaMolhada" value="Folha Amarela de Molhada">
+<label for="folhaAmarelaBrilhante">Folha amarela molhada</label>
+
+<br>
+<!-- Teste area é um elemento do formulario que serve para inserir texto em grande quantidade.
+Você pode definir o tamanho da caixa de texto utilizando col e row.
+è possivel pré-preencher o textarea colocando um texto padrão entre as tags de abertura e fechamento-->
+<label for="comentarioFolha">Justifique sua folha</label>
+<br>
+<textarea name="comentarioFolha" id="comentarioFolha" cols="30" rows="10"></textarea>
+<br>
+
+
+        <!--Submit faz o envio dos dados preenchidos pelo usuario O atributo value faz com que um texto apareça dentro do botão-->
+        <input type="submit" value="Enviar formulario">
+
+    
+    </form>
+
+    
+
+
+
+
+
+
+
+</body>
+
+</html>
