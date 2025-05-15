@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laricel Telecom</title>
+    <link rel="stylesheet" href="./formulario03.css">
+</head>
+<body>
+    <header>
+        <h1>Laricel Telecom</h1>
+        <img src="/ASSETS/chip-da-laricel.webp" alt="Larissa manoela apresentando o cip Laricel">
+    </header>
+    <main>
+
+        <form action="#" id="contrataPalno">
+            <fieldset id="dadosCliente">
+                <legend>Dados do cliente </legend>
+                <label for="nomeCompleto">Insira seu nome completo:</label>
+            <input type="text" name="nomeCompleto" id="nomeCompleto">
+
+            <br>
+            <br>
+            
+            <label for="dataNasc">Insira sua data de nascimento</label>
+            <input type="date" name="dataNasc" id="dataNasc">
+
+            <br>
+            <br>
+
+            <label for="cpf">Insira seu CPF:</label>
+            <input type="text" name="cpf" id="cpf" minlength="11" maxlength="11">
+
+            <br>
+            <br>
+
+            <label for="cep">Insira seu CEP:</label>
+            <input type="text" name="cep" id="cep" minlength="8" maxlength="8">
+
+            <br>
+            <br>
+
+            <label for="email">Insira seu e-mail:</label>
+            <input type="email" name="email" id="email">
+
+            <br>
+            <br>
+
+            <label for="telContado">Insira seu telefone de contato:</label>
+            <input type="tel" name="telContato" id="telContado" minlength="11" maxlength="12">
+
+            <br>
+
+            
+            
+            </fieldset>
+<br>
+            <fieldset id="planos">
+                <legend>Conheça nossos planos:</legend>
+
+                <label for=""><img src="/ASSETS/Anotação 2025-05-15 112853.png" alt="Planos da Laricel de 40gb" class="imagemPlano"></label>
+                <input type="radio" name="planoSelecionado" id="plano40">
+
+                <label for=""><img src="/ASSETS/plano55.png" alt="Planos da Laricel de 55gb" class="imagemPlano"></label>
+                <input type="radio" name="planoSelecionado" id="plano55">
+
+                <label for=""><img src="/ASSETS/plano15.png" alt="Planos da Laricel de 15gb" class="imagemPlano"></label>
+                <input type="radio" name="planoSelecionado" id="plano15">
+            </fieldset>
+
+            <input type="submit" value="Contratar plano" id="botao">
+        </form>
+
+
+    </main>
+    <footer>
+        <p>Desenvolvido no IOS 💜</p>
+    </footer>
+</body>
+</html>
