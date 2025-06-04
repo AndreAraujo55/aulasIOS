@@ -1,0 +1,64 @@
+@charset 'UTF 8';
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#container{
+    background-color: rgb(53, 52, 52);
+    display: flex;
+    /* A propriedade display altera como serão organizados os itens  que estão dentro de determinado elemento
+    display flex transforma o elemento em um container flexivel que se adequara aos itens
+    internos e permitira que vc organize as posições dos mesmo centro do container  */
+    justify-content: space-around;
+    align-items: center;
+    /*align-items é a propriedade que manda na organização do eixo cruzao(cross-axis) em um display flexivel*/
+    width: 95vw;
+    margin: 0 auto;
+    height: 30vh;
+    
+}
+.caixa1{
+    width: 5cm;
+    height: 5cm;
+    background-color: #ffffff;
+    display: flex;
+    border: 2px solid #000000;
+    justify-content: center;
+    order: 2;
+}
+.caixa2{
+    width: 5cm;
+    height: 5cm;
+    background-color: #ffffff;
+    display: flex;
+    border: 2px solid #000000;
+    justify-content: center;
+}
+.caixa3{
+    width: 5cm;
+    height: 5cm;
+    background-color: #ffffff;
+    display: flex;
+    border: 2px solid #000000;
+    justify-content: center;
+}
+.caixa1 img{
+    width: 150px;
+    background-color: #000000;
+}
+.caixa3 button{
+    height: 30px;
+    background-color: red;
+    border-radius: 15px;
+    align-self: center;
+}
+.caixa3 a{
+    text-decoration: none;
+    color: black;
+}
+.caixa2 p{
+    align-self: center;
+}
+
