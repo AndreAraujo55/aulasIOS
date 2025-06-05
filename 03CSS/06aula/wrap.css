@@ -1,0 +1,45 @@
+@charset 'UTF-8';
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#container{
+    background-color: #000541;
+    display: flex;
+    
+     /*flex-wrap determina se o conatiner flexivel encolherá seus elementos, também é possivel determinar de que maneira isso ocorre ou não*/
+    gap: 10px;
+     /*gap é um espaço que só existe entre itens de um mesmo contexto*/
+    justify-content: center;
+     /*content utilizamos para quando wrap ou temos mais de uma linha ou coluna.
+    Já o items quando, utilizamos quando não ocorre wrap ou temos uma linha*/
+    
+}
+.quadrado{
+    background-color: #1b2630e7;
+    width: 5cm;
+    height: 5cm;
+    border: 5px solid rgb(0, 46, 87);
+    border-radius: 10px;
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 10px;
+    flex-basis: 300px;
+    /*Flez-basis determina o tamanho minimo inicial dos elementos flexiveis*/
+}
+#quatro{
+    flex-grow: 3;
+    /*Deixa o elemnto selecionado com mais largura*/
+    flex-shrink: 2;
+    /*Ele fica mais achatado que os outros*/
+}
+#seis{
+    flex: 1 2 300px;
+    /*Apenas flex abrevia aos outros 3 elementos em um só primeiro valor é resposavel pelo grow
+    segundo valor é responsavel pelo shrink
+    terceiro valor é responsavel pelo basis*/
+}
