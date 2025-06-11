@@ -1,0 +1,55 @@
+@charset 'UTF-8';
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: grid;
+    /*O display grid transforma seu elemnto em um "quadriculado"*/
+    background-color: #001e3a;
+    grid-template-columns: repeat(10, 100px);
+    /*grid-templace-columns recebe a quantidade e tamanho de suas colunas*/
+    grid-template-rows:  repeat(10, 100px);
+    /*grid-templace-rows recebe a quantidade e tamanho de suas linhas*/
+    /*repeat() recebe dois valores, sendo primeiro a quantidade e o segundo os tamanhos*/
+    grid-template-areas: 
+    "branco branco vermelho vermelho branco2 branco2 vermelho2 vermelho2 branco3 branco3"
+    "branco4 vermelho3 vermelho3 vermelho3 vermelho3 vermelho3 vermelho3 vermelho3 vermelho3 branco5";
+    ""
+}
+#vermelho{
+    background-color: red;
+    grid-area: vermelho;
+}
+#vermelho2{
+    background-color: red;
+    grid-area: vermelho2;
+}
+#vermelho3{
+    background-color: red;
+    grid-area: vermelho3;
+}
+#preto{
+    
+}
+#branco{
+    background-color: #fff;
+    grid-area: branco;
+}
+#branco2{
+    background-color: #fff;
+    grid-area: branco2;
+}
+#branco3{
+    background-color: #fff;
+    grid-area: branco3;
+}
+#branco4{
+    background-color: #fff;
+    grid-area: branco4;
+}
+#branco5{
+    background-color: #fff;
+    grid-area: branco5;
+}
